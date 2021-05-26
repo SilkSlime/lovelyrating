@@ -1,6 +1,6 @@
 <?php
+// $dbconn = pg_connect(getenv("DATABASE_URL"));
 $dbconn = pg_connect("host=ec2-54-78-36-245.eu-west-1.compute.amazonaws.com port=5432 dbname=damcbovdvkucji user=nwuwhicdfqfxys password=d297f268ecbb669c7af029b742c96d2421097ec0efdb871761d443b44dbae886");
-$dbconn = pg_connect(getenv("DATABASE_URL"));
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,7 +22,7 @@ $dbconn = pg_connect(getenv("DATABASE_URL"));
     </div>
     <div class="uk-section">
         <div class="uk-container">
-        <table class="uk-table uk-table-responsive uk-table-divider uk-table-large uk-table-hover uk-table-striped">
+        <table class="uk-table uk-table-divider uk-table-large uk-table-hover uk-table-striped">
             <thead>
                 <tr>
                     <th>#</th>
